@@ -1,0 +1,106 @@
+2018-11-29 11:03:35.165 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting DotaApplication on DELL18032303 with PID 2000 (D:\test\dota\target\classes started by D1M in D:\test\dota)
+2018-11-29 11:03:35.165 - INFO  [  restartedMain] o.s.b.SpringApplication        : The following profiles are active: dev
+2018-11-29 11:03:35.165 - INFO  [  restartedMain] c.s.AbstractApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@603b95e7: startup date [Thu Nov 29 11:03:35 CST 2018]; root of context hierarchy
+2018-11-29 11:03:35.411 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$171cdf3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-29 11:03:35.476 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8082 (http)
+2018-11-29 11:03:35.476 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8082"]
+2018-11-29 11:03:35.476 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2018-11-29 11:03:35.476 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-11-29 11:03:35.476 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2018-11-29 11:03:35.476 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-29 11:03:35.476 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-29 11:03:35.476 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2018-11-29 11:03:35.476 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2018-11-29 11:03:35.476 - INFO  [ost-startStop-1] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 311 ms
+2018-11-29 11:03:35.508 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-11-29 11:03:35.508 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-29 11:03:35.508 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-29 11:03:35.508 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-29 11:03:35.508 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-29 11:03:35.570 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/swagger],methods=[POST]}" onto public java.lang.String com.example.dota.controller.SwaggerController.send(com.example.dota.dao.StudentDao) throws java.io.UnsupportedEncodingException
+2018-11-29 11:03:35.586 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/send]}" onto public java.lang.String com.example.dota.SendController.send3() throws java.io.UnsupportedEncodingException
+2018-11-29 11:03:35.586 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-11-29 11:03:35.586 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-11-29 11:03:35.586 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-11-29 11:03:35.586 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-11-29 11:03:35.586 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-29 11:03:35.586 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-29 11:03:35.617 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-29 11:03:35.648 - INFO  [  restartedMain] a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@603b95e7: startup date [Thu Nov 29 11:03:35 CST 2018]; root of context hierarchy
+2018-11-29 11:03:35.664 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-29 11:03:35.664 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-29 11:03:35.695 - INFO  [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2018-11-29 11:03:35.711 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Registering beans for JMX exposure on startup
+2018-11-29 11:03:35.711 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Bean with name 'connectionFactory' has been autodetected for JMX exposure
+2018-11-29 11:03:35.711 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Located managed bean 'connectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=connectionFactory,type=CachingConnectionFactory]
+2018-11-29 11:03:35.711 - INFO  [  restartedMain] ecycleProcessor$LifecycleGroup : Starting beans in phase 2147483647
+2018-11-29 11:03:35.711 - INFO  [  restartedMain] cumentationPluginsBootstrapper : Context refreshed
+2018-11-29 11:03:35.711 - INFO  [  restartedMain] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-29 11:03:35.711 - INFO  [  restartedMain] w.s.ApiListingReferenceScanner : Scanning for api listing references
+2018-11-29 11:03:35.726 - INFO  [Container_one-1] .r.c.AbstractConnectionFactory : Attempting to connect to: 10.60.1.198:5672
+2018-11-29 11:03:35.820 - INFO  [Container_one-1] .r.c.AbstractConnectionFactory : Created new connection: connectionFactory#5eb93721:0/SimpleConnection@15d3fbb4 [delegate=amqp://admin@10.60.1.198:5672/, localPort= 63000]
+2018-11-29 11:03:35.992 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8082"]
+2018-11-29 11:03:35.992 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2018-11-29 11:03:36.008 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8082 (http) with context path '/dota'
+2018-11-29 11:03:36.008 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Started DotaApplication in 0.874 seconds (JVM running for 2572.598)
+2018-11-29 11:03:36.008 - INFO  [  restartedMain] EvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-11-29 11:05:49.816 - INFO  [      Thread-34] c.s.AbstractApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@603b95e7: startup date [Thu Nov 29 11:03:35 CST 2018]; root of context hierarchy
+2018-11-29 11:05:49.817 - INFO  [      Thread-34] ecycleProcessor$LifecycleGroup : Stopping beans in phase 2147483647
+2018-11-29 11:05:49.856 - INFO  [      Thread-34] SimpleMessageListenerContainer : Waiting for workers to finish.
+2018-11-29 11:05:50.310 - INFO  [      Thread-34] SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2018-11-29 11:05:50.341 - INFO  [      Thread-34] SimpleMessageListenerContainer : Waiting for workers to finish.
+2018-11-29 11:05:50.482 - INFO  [      Thread-34] SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2018-11-29 11:05:50.483 - INFO  [      Thread-34] ecycleProcessor$LifecycleGroup : Stopping beans in phase 0
+2018-11-29 11:05:50.483 - INFO  [      Thread-34] o.s.j.e.MBeanExporter          : Unregistering JMX-exposed beans on shutdown
+2018-11-29 11:05:50.483 - INFO  [      Thread-34] s.j.s.MBeanRegistrationSupport : Unregistering JMX-exposed beans
+2018-11-29 11:05:50.483 - INFO  [      Thread-34] stractMessageListenerContainer : Shutdown ignored - container is not active already
+2018-11-29 11:05:50.484 - INFO  [      Thread-34] stractMessageListenerContainer : Shutdown ignored - container is not active already
+2018-11-29 11:05:50.760 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting DotaApplication on DELL18032303 with PID 2000 (D:\test\dota\target\classes started by D1M in D:\test\dota)
+2018-11-29 11:05:50.760 - INFO  [  restartedMain] o.s.b.SpringApplication        : The following profiles are active: dev
+2018-11-29 11:05:50.762 - INFO  [  restartedMain] c.s.AbstractApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@743cd29e: startup date [Thu Nov 29 11:05:50 CST 2018]; root of context hierarchy
+2018-11-29 11:05:51.036 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$171cdf3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-29 11:05:51.088 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8082 (http)
+2018-11-29 11:05:51.088 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8082"]
+2018-11-29 11:05:51.089 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2018-11-29 11:05:51.089 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-11-29 11:05:51.090 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2018-11-29 11:05:51.090 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-29 11:05:51.090 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-29 11:05:51.090 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2018-11-29 11:05:51.101 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2018-11-29 11:05:51.101 - INFO  [ost-startStop-1] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 339 ms
+2018-11-29 11:05:51.125 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-11-29 11:05:51.125 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-29 11:05:51.126 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-29 11:05:51.126 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-29 11:05:51.126 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-29 11:05:51.204 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/swagger],methods=[POST]}" onto public java.lang.String com.example.dota.controller.SwaggerController.send(com.example.dota.dao.StudentDao) throws java.io.UnsupportedEncodingException
+2018-11-29 11:05:51.204 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/send]}" onto public java.lang.String com.example.dota.SendController.send3() throws java.io.UnsupportedEncodingException
+2018-11-29 11:05:51.205 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-11-29 11:05:51.207 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-11-29 11:05:51.207 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-11-29 11:05:51.207 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-11-29 11:05:51.209 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-29 11:05:51.209 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-29 11:05:51.249 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-29 11:05:51.292 - INFO  [  restartedMain] a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@743cd29e: startup date [Thu Nov 29 11:05:50 CST 2018]; root of context hierarchy
+2018-11-29 11:05:51.305 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-29 11:05:51.305 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-29 11:05:51.345 - INFO  [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2018-11-29 11:05:51.358 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Registering beans for JMX exposure on startup
+2018-11-29 11:05:51.360 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Bean with name 'connectionFactory' has been autodetected for JMX exposure
+2018-11-29 11:05:51.361 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Located managed bean 'connectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=connectionFactory,type=CachingConnectionFactory]
+2018-11-29 11:05:51.365 - INFO  [  restartedMain] ecycleProcessor$LifecycleGroup : Starting beans in phase 2147483647
+2018-11-29 11:05:51.365 - INFO  [  restartedMain] cumentationPluginsBootstrapper : Context refreshed
+2018-11-29 11:05:51.366 - INFO  [  restartedMain] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-11-29 11:05:51.368 - INFO  [  restartedMain] w.s.ApiListingReferenceScanner : Scanning for api listing references
+2018-11-29 11:05:51.376 - INFO  [Container_one-1] .r.c.AbstractConnectionFactory : Attempting to connect to: 10.60.1.198:5672
+2018-11-29 11:05:51.389 - INFO  [Container_one-1] .r.c.AbstractConnectionFactory : Created new connection: connectionFactory#10d062ad:0/SimpleConnection@70fe1ac8 [delegate=amqp://admin@10.60.1.198:5672/, localPort= 63110]
+2018-11-29 11:05:51.487 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8082"]
+2018-11-29 11:05:51.488 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2018-11-29 11:05:51.491 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8082 (http) with context path '/dota'
+2018-11-29 11:05:51.492 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Started DotaApplication in 0.755 seconds (JVM running for 2708.079)
+2018-11-29 11:05:51.494 - INFO  [  restartedMain] EvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-11-29 11:06:38.338 - INFO  [nio-8082-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-29 11:06:38.338 - INFO  [nio-8082-exec-1] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-29 11:06:38.340 - INFO  [nio-8082-exec-1] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
