@@ -15,8 +15,7 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 @Configuration
-@EnableSwagger2
-@Profile("dev")
+//@Profile("dev")
 public class Swagger2 {
     //swagger2的配置文件，这里可以配置swagger2的一些基本的内容，比如扫描的包等等
     @Bean
